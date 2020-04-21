@@ -1,0 +1,29 @@
+html, body {
+    font-family: Arial, serif;
+    text-align: center;
+}
+
+.field {
+    float: left;
+    height: 99%;
+    width: 33%;
+    border: 1px solid black;
+}
+
+.row {
+    height: 33.3%;
+}
+
+.selectedByPlayerOne {
+    background-color: #b71c1c;
+}
+
+.selectedByPlayerTwo {
+    background-color: #0d47a1;
+}
+
+#gameField {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+}

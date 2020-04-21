@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
+</head>
+<body onload="notifyPlayer()">
+<h1>Tic-Tac-Toe</h1>
+<h2>
+  <span id="playerOneWins" style="color: #b71c1c">0</span>:<span id="playerTwoWins" style="color: #0d47a1">0</span>
+</h2>
+<h3 id="alertMessage"></h3>
+<p>
+  <button id="retryBtn" style="display: none" onclick="reset()">Play again</button>
+</p>
+<div id="gameField">
+  <div id="rowOne" class="row">
+    <div id="fieldOne" class="field" onclick="selectField(this)"></div>
+    <div id="fieldTwo" class="field" onclick="selectField(this)"></div>
+    <div id="fieldThree" class="field" onclick="selectField(this)"></div>
+  </div>
+  <div id="rowTwo" class="row">
+    <div id="fieldFour" class="field" onclick="selectField(this)"></div>
+    <div id="fieldFive" class="field" onclick="selectField(this)"></div>
+    <div id="fieldSix" class="field" onclick="selectField(this)"></div>
+  </div>
+  <div id="rowThree" class="row">
+    <div id="fieldSeven" class="field" onclick="selectField(this)"></div>
+    <div id="fieldEight" class="field" onclick="selectField(this)"></div>
+    <div id="fieldNine" class="field" onclick="selectField(this)"></div>
+  </div>
+</div>
+</body>
+</html>

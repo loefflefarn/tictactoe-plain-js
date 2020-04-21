@@ -1,2 +1,3 @@
 # tictactoe-plain-js
-Simple TicTacToe in plain JavaScript
+
+Simple TicTacToe game written in plain JavaScript.
